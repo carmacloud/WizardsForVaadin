@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Preparation') {
             steps {
-                git url: 'https://github.com/carmacloud/WizardsForVaadin.git'
+                git url: 'https://github.com/carmacloud/WizardsForVaadin.git', branch: 'upgrade7'
             }
         }
         stage('Build') {
