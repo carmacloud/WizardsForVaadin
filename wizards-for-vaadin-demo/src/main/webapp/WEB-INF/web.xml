@@ -12,7 +12,7 @@
 		<param-value>false</param-value>
 	</context-param>
 
-	<servlet>
+	<!-- <servlet>
 		<servlet-name>WizardsDemoApplication</servlet-name>
 		<servlet-class>com.vaadin.server.VaadinServlet</servlet-class>
 		<init-param>
@@ -20,11 +20,11 @@
 			<param-name>UI</param-name>
 			<param-value>org.vaadin.teemu.wizards.WizardsDemoApplication</param-value>
 		</init-param>
-	</servlet>
+	</servlet> -->
 
-	<servlet-mapping>
+	<!-- <servlet-mapping>
 		<servlet-name>WizardsDemoApplication</servlet-name>
 		<url-pattern>/*</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping> -->
 
 </web-app>
